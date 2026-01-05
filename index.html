@@ -31,6 +31,35 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
+    <!-- Header -->
+    <header class="w-100" id="header">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center gap-2">
+            <a
+              href="tel:08809998836"
+              class="text-decoration-none text-white fw-normal"
+              >8809998836</a
+            >
+            <i class="fa-solid fa-phone text-primary"></i>
+          </div>
+          <div class="social-links d-flex gap-2">
+            <a href="#" class="social-icon bg-info">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon bg-danger">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon bg-primary">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon bg-info">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg py-2 custom-navbar sticky-top">
       <div class="container">
@@ -43,7 +72,7 @@
           />
         </a>
         <button
-          class="navbar-toggler border-0 shadow-none"
+          class="navbar-toggler border-0 shadow-none bg-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -122,8 +151,8 @@
       <!-- Hero Section -->
       <section class="hero-section py-5 position-relative overflow-hidden">
         <div class="container py-lg-4">
-          <div class="row align-items-center">
-            <div class="col-lg-7 mb-5 mb-lg-0">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-7 mb-lg-0 order-2 order-lg-1">
               <div
                 class="d-inline-flex align-items-center gap-2 px-3 py-2 bg-white rounded-pill shadow-sm mb-4 border border-light"
               >
@@ -139,6 +168,12 @@
               <p class="fs-5 text-secondary mb-4 pe-lg-5 lh-base">
                 Trusted Centre for Minimally Invasive Surgery, Urology & Women's
                 Health. Experience faster recovery with precision surgical care.
+              </p>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo mollitia veniam corrupti nulla! In ullam ipsam tempore
+                recusandae, eius sapiente nulla praesentium! Velit quo dicta
+                inventore commodi eaque deleniti alias.
               </p>
               <div class="d-flex flex-wrap gap-3 mb-5">
                 <a
@@ -176,11 +211,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 order-1 order-lg-2">
               <div class="position-relative ps-lg-4">
                 <!-- Floating Icon Top Right -->
                 <div
-                  class="position-absolute top-0 end-0 translate-middle-y bg-success text-white rounded-circle p-3 d-flex align-items-center justify-content-center shadow z-3"
+                  class="position-absolute top-0 end-0 translate-middle-y bg-success text-white rounded-circle p-3 d-none d-lg-flex align-items-center justify-content-center shadow z-3"
                   style="
                     width: 60px;
                     height: 60px;
@@ -196,7 +231,7 @@
                   class="rounded-4 overflow-hidden shadow-lg position-relative"
                 >
                   <img
-                    src="assets/images/doctor.png"
+                    src="assets/images/Dr.rahulkrsingh2.jpg"
                     alt="Surgery Team"
                     class="img-fluid w-100 object-fit-cover"
                     style="min-height: 400px"
@@ -232,7 +267,7 @@
 
                 <!-- Floating Icon Bottom Left -->
                 <div
-                  class="position-absolute bottom-0 start-0 translate-middle text-white rounded-circle p-3 d-flex align-items-center justify-content-center shadow z-3"
+                  class="position-absolute bottom-0 start-0 translate-middle text-white rounded-circle p-3 d-none d-lg-flex align-items-center justify-content-center shadow z-3"
                   style="
                     width: 50px;
                     height: 50px;
@@ -246,6 +281,19 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1767613254">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
       </section>
 
@@ -921,6 +969,12 @@
         </div>
       </section>
 
+      <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+      <div
+        class="elfsight-app-2e9382d3-9512-47a0-86f4-5bbc532ee5c6"
+        data-elfsight-app-lazy
+      ></div>
+
       <!-- Frequently Asked Questions -->
       <section class="faq-section section-padding bg-white">
         <div class="container">
@@ -1430,6 +1484,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+
     <script src="assets/js/index.js"></script>
   </body>
 </html>
